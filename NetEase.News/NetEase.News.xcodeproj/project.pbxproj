@@ -1,0 +1,1113 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A22EE121BC78CBC00BE7146 /* NERecommentReadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A22EE111BC78CBC00BE7146 /* NERecommentReadModel.m */; settings = {ASSET_TAGS = (); }; };
+		2A22EE251BC7913400BE7146 /* NELeftPictureReadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A22EE231BC7913400BE7146 /* NELeftPictureReadCell.m */; settings = {ASSET_TAGS = (); }; };
+		2A22EE261BC7913400BE7146 /* NELeftPictureReadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A22EE241BC7913400BE7146 /* NELeftPictureReadCell.xib */; settings = {ASSET_TAGS = (); }; };
+		2A22EE2A1BC7915200BE7146 /* NERightPitureReadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A22EE281BC7915200BE7146 /* NERightPitureReadCell.m */; settings = {ASSET_TAGS = (); }; };
+		2A22EE2B1BC7915200BE7146 /* NERightPitureReadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A22EE291BC7915200BE7146 /* NERightPitureReadCell.xib */; settings = {ASSET_TAGS = (); }; };
+		2A22EE2F1BC791C900BE7146 /* NERecBigPictureReadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A22EE2D1BC791C900BE7146 /* NERecBigPictureReadCell.m */; settings = {ASSET_TAGS = (); }; };
+		2A22EE301BC791C900BE7146 /* NERecBigPictureReadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A22EE2E1BC791C900BE7146 /* NERecBigPictureReadCell.xib */; settings = {ASSET_TAGS = (); }; };
+		2A2417A81BC3A303002C9EE2 /* NENewsFollowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2417A71BC3A303002C9EE2 /* NENewsFollowModel.m */; };
+		2A2AE71F1BC4AA3E0001D82E /* NEPerMusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AE71E1BC4AA3E0001D82E /* NEPerMusicView.m */; };
+		2A2AE7211BC4AA4E0001D82E /* NEPerMusicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A2AE7201BC4AA4E0001D82E /* NEPerMusicView.xib */; };
+		2A2EBEC01BC64430005D8395 /* NEBannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2EBEBF1BC64430005D8395 /* NEBannerModel.m */; };
+		2A2EBEC31BC64449005D8395 /* NERecommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2EBEC21BC64449005D8395 /* NERecommendModel.m */; };
+		2A2EBEC61BC6445F005D8395 /* NEStreamModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2EBEC51BC6445F005D8395 /* NEStreamModel.m */; };
+		2A2EBEC91BC645AB005D8395 /* NEContextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2EBEC81BC645AB005D8395 /* NEContextModel.m */; };
+		2A2EBECF1BC68D50005D8395 /* NEVideoSidModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2EBECE1BC68D50005D8395 /* NEVideoSidModel.m */; };
+		2A2EBED21BC68D9F005D8395 /* NEVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2EBED11BC68D9F005D8395 /* NEVideoModel.m */; };
+		2A2EBED51BC697DF005D8395 /* NEAudioModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2EBED41BC697DF005D8395 /* NEAudioModel.m */; };
+		2A2EBED81BC697F2005D8395 /* NEAudioTopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2EBED71BC697F2005D8395 /* NEAudioTopModel.m */; };
+		2A2EBEDE1BC698C6005D8395 /* NEPerAudioModle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2EBEDD1BC698C6005D8395 /* NEPerAudioModle.m */; };
+		2A2EBEE11BC69922005D8395 /* NERadioModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2EBEE01BC69922005D8395 /* NERadioModel.m */; };
+		2A3D92C41BBE68D60075D9F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A3D92C31BBE68D60075D9F5 /* Images.xcassets */; };
+		2A3D92D31BBE68D60075D9F5 /* NetEase_NewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D92D21BBE68D60075D9F5 /* NetEase_NewsTests.m */; };
+		2A3D92FA1BBE726A0075D9F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D92DF1BBE726A0075D9F5 /* AppDelegate.m */; };
+		2A3D92FB1BBE726A0075D9F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D92E11BBE726A0075D9F5 /* main.m */; };
+		2A3D93011BBE73750075D9F5 /* NETabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D93001BBE73750075D9F5 /* NETabBarController.m */; };
+		2A421B731BC511730068026B /* NERecommentReadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A421B711BC511730068026B /* NERecommentReadCell.m */; };
+		2A421B741BC511730068026B /* NERecommentReadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A421B721BC511730068026B /* NERecommentReadCell.xib */; };
+		2A4DB5FE1BC417AD0050A0EB /* NEAudioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4DB5FC1BC417AD0050A0EB /* NEAudioCell.m */; };
+		2A4DB5FF1BC417AD0050A0EB /* NEAudioCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A4DB5FD1BC417AD0050A0EB /* NEAudioCell.xib */; };
+		2A4DB60A1BC420190050A0EB /* NEAudioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4DB6091BC420190050A0EB /* NEAudioButton.m */; };
+		2A4DB60F1BC4266E0050A0EB /* NEPerMusicButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4DB60E1BC4266E0050A0EB /* NEPerMusicButton.m */; };
+		2A655C161BC3C66B00B014F9 /* NEClearCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A655C151BC3C66B00B014F9 /* NEClearCell.m */; };
+		2A655C191BC3C6FB00B014F9 /* NESettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A655C181BC3C6FB00B014F9 /* NESettingViewController.m */; };
+		2A655C1F1BC401F600B014F9 /* MJExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A655C1E1BC401F600B014F9 /* MJExtensionConfig.m */; };
+		2A6771281BC3BB74006D0E2C /* NEMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6771261BC3BB74006D0E2C /* NEMeViewController.m */; };
+		2A6771291BC3BB74006D0E2C /* NEMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A6771271BC3BB74006D0E2C /* NEMeViewController.xib */; };
+		2A6771301BC3C21D006D0E2C /* NSString+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A67712F1BC3C21D006D0E2C /* NSString+XMGExtension.m */; };
+		2A69322A1BBFACA200DE80AC /* NECommonHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6932291BBFACA200DE80AC /* NECommonHeaderViewModel.m */; };
+		2A84C4261BC4F20200815147 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A84C4251BC4F20200815147 /* UIImage+Image.m */; };
+		2A9FD9FF1BBEAA17000938DD /* UIView+SMARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9FD9FE1BBEAA17000938DD /* UIView+SMARTExtension.m */; };
+		2AB92BBB1BC507BD00C295A3 /* NERecommentReadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB92BBA1BC507BD00C295A3 /* NERecommentReadController.m */; };
+		2AB92BBE1BC507D300C295A3 /* NEMyReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB92BBD1BC507D300C295A3 /* NEMyReadViewController.m */; };
+		2ABD6ADC1BC2A24D00DEC10F /* requestURLArrs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2ABD6ADB1BC2A24D00DEC10F /* requestURLArrs.plist */; };
+		2AD7CF001BC116B90002A553 /* NEImgExtraNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7CEFE1BC116B90002A553 /* NEImgExtraNewsCell.m */; };
+		2AD7CF011BC116B90002A553 /* NEImgExtraNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD7CEFF1BC116B90002A553 /* NEImgExtraNewsCell.xib */; };
+		2AD7CF051BC135750002A553 /* NELiveNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7CF031BC135750002A553 /* NELiveNewsCell.m */; };
+		2AD7CF061BC135750002A553 /* NELiveNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD7CF041BC135750002A553 /* NELiveNewsCell.xib */; };
+		2AD7CF091BC138B80002A553 /* NENewsLiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7CF081BC138B80002A553 /* NENewsLiveModel.m */; };
+		2ADE05A61BC4B4AD0024D78E /* NEAudioVisualViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE05A51BC4B4AD0024D78E /* NEAudioVisualViewController.m */; };
+		2ADE05A91BC4B8B50024D78E /* NEVisualController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE05A81BC4B8B50024D78E /* NEVisualController.m */; };
+		2ADE05AC1BC4B8C50024D78E /* NEAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE05AB1BC4B8C50024D78E /* NEAudioController.m */; };
+		2ADE05B01BC4C0A10024D78E /* NEVisualCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE05AE1BC4C0A10024D78E /* NEVisualCell.m */; };
+		2ADE05B11BC4C0A10024D78E /* NEVisualCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ADE05AF1BC4C0A10024D78E /* NEVisualCell.xib */; };
+		2ADE05B51BC4CF020024D78E /* NEFounderViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE05B31BC4CF020024D78E /* NEFounderViewCell.m */; };
+		2ADE05B61BC4CF020024D78E /* NEFounderViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ADE05B41BC4CF020024D78E /* NEFounderViewCell.xib */; };
+		2AE2025A1BC82D8F00023165 /* NELable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE202591BC82D8F00023165 /* NELable.m */; settings = {ASSET_TAGS = (); }; };
+		2AED59911BC0173D0018A44D /* NECommonTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AED59901BC0173D0018A44D /* NECommonTableViewModel.m */; };
+		2AED59931BC01BB60018A44D /* NSDictionary+LOG.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AED59921BC01BB60018A44D /* NSDictionary+LOG.m */; };
+		2AEE71E71BC190BE001EA1B3 /* NENewsBoBoLiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE71E61BC190BE001EA1B3 /* NENewsBoBoLiveModel.m */; };
+		2AF191F51BBF6B06000BA131 /* NECommonNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF191F31BBF6B06000BA131 /* NECommonNewsCell.m */; };
+		2AF191F61BBF6B06000BA131 /* NECommonNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AF191F41BBF6B06000BA131 /* NECommonNewsCell.xib */; };
+		2AF4079C1BC380E800F316B7 /* NEWordNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF4079A1BC380E800F316B7 /* NEWordNewsCell.m */; };
+		2AF4079D1BC380E800F316B7 /* NEWordNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AF4079B1BC380E800F316B7 /* NEWordNewsCell.xib */; };
+		2AF407A11BC3817800F316B7 /* NEFollowNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF4079F1BC3817800F316B7 /* NEFollowNewsCell.m */; };
+		2AF407A21BC3817800F316B7 /* NEFollowNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AF407A01BC3817800F316B7 /* NEFollowNewsCell.xib */; };
+		2AF407A61BC3819600F316B7 /* NEPictureNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF407A41BC3819600F316B7 /* NEPictureNewsCell.m */; };
+		2AF407A71BC3819600F316B7 /* NEPictureNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AF407A51BC3819600F316B7 /* NEPictureNewsCell.xib */; };
+		2AF77A181BC6C5E8005CA893 /* NEMyRecommendReadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF77A171BC6C5E8005CA893 /* NEMyRecommendReadModel.m */; };
+		2AF77A1B1BC6C7CD005CA893 /* NEBannerListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF77A1A1BC6C7CD005CA893 /* NEBannerListModel.m */; };
+		2AF9E06E1BBE75C3009A0891 /* NEReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9E06D1BBE75C3009A0891 /* NEReadViewController.m */; };
+		2AF9E0771BBE769E009A0891 /* NEFoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9E0761BBE769E009A0891 /* NEFoundViewController.m */; };
+		2AF9E0811BBE7992009A0891 /* NENewsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9E07F1BBE7992009A0891 /* NENewsCollectionViewController.m */; };
+		2AF9E0861BBE79E1009A0891 /* NENewsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9E0841BBE79E1009A0891 /* NENewsCollectionViewCell.m */; };
+		2AF9E0871BBE79E1009A0891 /* NENewsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AF9E0851BBE79E1009A0891 /* NENewsCollectionViewCell.xib */; };
+		2AF9E08A1BBE8461009A0891 /* NEConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9E0891BBE8461009A0891 /* NEConst.m */; };
+		A40FDF120439BE51DF9DDE99 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0324D4AF3AB9120A8A2C36 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A3D92CD1BBE68D60075D9F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A3D92AB1BBE68D60075D9F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A3D92B21BBE68D60075D9F5;
+			remoteInfo = NetEase.News;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A22EE101BC78CBC00BE7146 /* NERecommentReadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NERecommentReadModel.h; sourceTree = "<group>"; };
+		2A22EE111BC78CBC00BE7146 /* NERecommentReadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NERecommentReadModel.m; sourceTree = "<group>"; };
+		2A22EE221BC7913400BE7146 /* NELeftPictureReadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NELeftPictureReadCell.h; sourceTree = "<group>"; };
+		2A22EE231BC7913400BE7146 /* NELeftPictureReadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NELeftPictureReadCell.m; sourceTree = "<group>"; };
+		2A22EE241BC7913400BE7146 /* NELeftPictureReadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NELeftPictureReadCell.xib; sourceTree = "<group>"; };
+		2A22EE271BC7915200BE7146 /* NERightPitureReadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NERightPitureReadCell.h; sourceTree = "<group>"; };
+		2A22EE281BC7915200BE7146 /* NERightPitureReadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NERightPitureReadCell.m; sourceTree = "<group>"; };
+		2A22EE291BC7915200BE7146 /* NERightPitureReadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NERightPitureReadCell.xib; sourceTree = "<group>"; };
+		2A22EE2C1BC791C900BE7146 /* NERecBigPictureReadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NERecBigPictureReadCell.h; sourceTree = "<group>"; };
+		2A22EE2D1BC791C900BE7146 /* NERecBigPictureReadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NERecBigPictureReadCell.m; sourceTree = "<group>"; };
+		2A22EE2E1BC791C900BE7146 /* NERecBigPictureReadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NERecBigPictureReadCell.xib; sourceTree = "<group>"; };
+		2A2417A61BC3A303002C9EE2 /* NENewsFollowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NENewsFollowModel.h; sourceTree = "<group>"; };
+		2A2417A71BC3A303002C9EE2 /* NENewsFollowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NENewsFollowModel.m; sourceTree = "<group>"; };
+		2A2AE71D1BC4AA3E0001D82E /* NEPerMusicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEPerMusicView.h; sourceTree = "<group>"; };
+		2A2AE71E1BC4AA3E0001D82E /* NEPerMusicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEPerMusicView.m; sourceTree = "<group>"; };
+		2A2AE7201BC4AA4E0001D82E /* NEPerMusicView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEPerMusicView.xib; sourceTree = "<group>"; };
+		2A2EBEBE1BC64430005D8395 /* NEBannerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEBannerModel.h; sourceTree = "<group>"; };
+		2A2EBEBF1BC64430005D8395 /* NEBannerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEBannerModel.m; sourceTree = "<group>"; };
+		2A2EBEC11BC64449005D8395 /* NERecommendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NERecommendModel.h; sourceTree = "<group>"; };
+		2A2EBEC21BC64449005D8395 /* NERecommendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NERecommendModel.m; sourceTree = "<group>"; };
+		2A2EBEC41BC6445F005D8395 /* NEStreamModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEStreamModel.h; sourceTree = "<group>"; };
+		2A2EBEC51BC6445F005D8395 /* NEStreamModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEStreamModel.m; sourceTree = "<group>"; };
+		2A2EBEC71BC645AB005D8395 /* NEContextModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEContextModel.h; sourceTree = "<group>"; };
+		2A2EBEC81BC645AB005D8395 /* NEContextModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEContextModel.m; sourceTree = "<group>"; };
+		2A2EBECD1BC68D50005D8395 /* NEVideoSidModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEVideoSidModel.h; sourceTree = "<group>"; };
+		2A2EBECE1BC68D50005D8395 /* NEVideoSidModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEVideoSidModel.m; sourceTree = "<group>"; };
+		2A2EBED01BC68D9F005D8395 /* NEVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEVideoModel.h; sourceTree = "<group>"; };
+		2A2EBED11BC68D9F005D8395 /* NEVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEVideoModel.m; sourceTree = "<group>"; };
+		2A2EBED31BC697DF005D8395 /* NEAudioModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEAudioModel.h; sourceTree = "<group>"; };
+		2A2EBED41BC697DF005D8395 /* NEAudioModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEAudioModel.m; sourceTree = "<group>"; };
+		2A2EBED61BC697F2005D8395 /* NEAudioTopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEAudioTopModel.h; sourceTree = "<group>"; };
+		2A2EBED71BC697F2005D8395 /* NEAudioTopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEAudioTopModel.m; sourceTree = "<group>"; };
+		2A2EBEDC1BC698C6005D8395 /* NEPerAudioModle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEPerAudioModle.h; sourceTree = "<group>"; };
+		2A2EBEDD1BC698C6005D8395 /* NEPerAudioModle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEPerAudioModle.m; sourceTree = "<group>"; };
+		2A2EBEDF1BC69922005D8395 /* NERadioModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NERadioModel.h; sourceTree = "<group>"; };
+		2A2EBEE01BC69922005D8395 /* NERadioModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NERadioModel.m; sourceTree = "<group>"; };
+		2A3D92B31BBE68D60075D9F5 /* NetEase.News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetEase.News.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3D92B71BBE68D60075D9F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A3D92C31BBE68D60075D9F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2A3D92CC1BBE68D60075D9F5 /* NetEase.NewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetEase.NewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3D92D11BBE68D60075D9F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A3D92D21BBE68D60075D9F5 /* NetEase_NewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetEase_NewsTests.m; sourceTree = "<group>"; };
+		2A3D92DE1BBE726A0075D9F5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A3D92DF1BBE726A0075D9F5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A3D92E11BBE726A0075D9F5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A3D92FF1BBE73750075D9F5 /* NETabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NETabBarController.h; sourceTree = "<group>"; };
+		2A3D93001BBE73750075D9F5 /* NETabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NETabBarController.m; sourceTree = "<group>"; };
+		2A421B701BC511730068026B /* NERecommentReadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NERecommentReadCell.h; sourceTree = "<group>"; };
+		2A421B711BC511730068026B /* NERecommentReadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NERecommentReadCell.m; sourceTree = "<group>"; };
+		2A421B721BC511730068026B /* NERecommentReadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NERecommentReadCell.xib; sourceTree = "<group>"; };
+		2A4DB5FB1BC417AD0050A0EB /* NEAudioCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEAudioCell.h; sourceTree = "<group>"; };
+		2A4DB5FC1BC417AD0050A0EB /* NEAudioCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEAudioCell.m; sourceTree = "<group>"; };
+		2A4DB5FD1BC417AD0050A0EB /* NEAudioCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEAudioCell.xib; sourceTree = "<group>"; };
+		2A4DB6081BC420190050A0EB /* NEAudioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEAudioButton.h; sourceTree = "<group>"; };
+		2A4DB6091BC420190050A0EB /* NEAudioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEAudioButton.m; sourceTree = "<group>"; };
+		2A4DB60D1BC4266E0050A0EB /* NEPerMusicButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEPerMusicButton.h; sourceTree = "<group>"; };
+		2A4DB60E1BC4266E0050A0EB /* NEPerMusicButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEPerMusicButton.m; sourceTree = "<group>"; };
+		2A655C141BC3C66B00B014F9 /* NEClearCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEClearCell.h; sourceTree = "<group>"; };
+		2A655C151BC3C66B00B014F9 /* NEClearCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEClearCell.m; sourceTree = "<group>"; };
+		2A655C171BC3C6FB00B014F9 /* NESettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NESettingViewController.h; sourceTree = "<group>"; };
+		2A655C181BC3C6FB00B014F9 /* NESettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NESettingViewController.m; sourceTree = "<group>"; };
+		2A655C1D1BC401F600B014F9 /* MJExtensionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConfig.h; sourceTree = "<group>"; };
+		2A655C1E1BC401F600B014F9 /* MJExtensionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConfig.m; sourceTree = "<group>"; };
+		2A6771251BC3BB74006D0E2C /* NEMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEMeViewController.h; sourceTree = "<group>"; };
+		2A6771261BC3BB74006D0E2C /* NEMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEMeViewController.m; sourceTree = "<group>"; };
+		2A6771271BC3BB74006D0E2C /* NEMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEMeViewController.xib; sourceTree = "<group>"; };
+		2A67712E1BC3C21D006D0E2C /* NSString+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XMGExtension.h"; sourceTree = "<group>"; };
+		2A67712F1BC3C21D006D0E2C /* NSString+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XMGExtension.m"; sourceTree = "<group>"; };
+		2A6932281BBFACA200DE80AC /* NECommonHeaderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NECommonHeaderViewModel.h; sourceTree = "<group>"; };
+		2A6932291BBFACA200DE80AC /* NECommonHeaderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NECommonHeaderViewModel.m; sourceTree = "<group>"; };
+		2A84C4241BC4F20200815147 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		2A84C4251BC4F20200815147 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		2A9FD9FD1BBEAA17000938DD /* UIView+SMARTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SMARTExtension.h"; sourceTree = "<group>"; };
+		2A9FD9FE1BBEAA17000938DD /* UIView+SMARTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SMARTExtension.m"; sourceTree = "<group>"; };
+		2AB92BB91BC507BD00C295A3 /* NERecommentReadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NERecommentReadController.h; sourceTree = "<group>"; };
+		2AB92BBA1BC507BD00C295A3 /* NERecommentReadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NERecommentReadController.m; sourceTree = "<group>"; };
+		2AB92BBC1BC507D300C295A3 /* NEMyReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEMyReadViewController.h; sourceTree = "<group>"; };
+		2AB92BBD1BC507D300C295A3 /* NEMyReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEMyReadViewController.m; sourceTree = "<group>"; };
+		2ABD6ADB1BC2A24D00DEC10F /* requestURLArrs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = requestURLArrs.plist; sourceTree = "<group>"; };
+		2AD7CEFD1BC116B90002A553 /* NEImgExtraNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEImgExtraNewsCell.h; sourceTree = "<group>"; };
+		2AD7CEFE1BC116B90002A553 /* NEImgExtraNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEImgExtraNewsCell.m; sourceTree = "<group>"; };
+		2AD7CEFF1BC116B90002A553 /* NEImgExtraNewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEImgExtraNewsCell.xib; sourceTree = "<group>"; };
+		2AD7CF021BC135750002A553 /* NELiveNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NELiveNewsCell.h; sourceTree = "<group>"; };
+		2AD7CF031BC135750002A553 /* NELiveNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NELiveNewsCell.m; sourceTree = "<group>"; };
+		2AD7CF041BC135750002A553 /* NELiveNewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NELiveNewsCell.xib; sourceTree = "<group>"; };
+		2AD7CF071BC138B80002A553 /* NENewsLiveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NENewsLiveModel.h; sourceTree = "<group>"; };
+		2AD7CF081BC138B80002A553 /* NENewsLiveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NENewsLiveModel.m; sourceTree = "<group>"; };
+		2ADE05A41BC4B4AD0024D78E /* NEAudioVisualViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEAudioVisualViewController.h; sourceTree = "<group>"; };
+		2ADE05A51BC4B4AD0024D78E /* NEAudioVisualViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEAudioVisualViewController.m; sourceTree = "<group>"; };
+		2ADE05A71BC4B8B50024D78E /* NEVisualController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEVisualController.h; sourceTree = "<group>"; };
+		2ADE05A81BC4B8B50024D78E /* NEVisualController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEVisualController.m; sourceTree = "<group>"; };
+		2ADE05AA1BC4B8C50024D78E /* NEAudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEAudioController.h; sourceTree = "<group>"; };
+		2ADE05AB1BC4B8C50024D78E /* NEAudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEAudioController.m; sourceTree = "<group>"; };
+		2ADE05AD1BC4C0A10024D78E /* NEVisualCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEVisualCell.h; sourceTree = "<group>"; };
+		2ADE05AE1BC4C0A10024D78E /* NEVisualCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEVisualCell.m; sourceTree = "<group>"; };
+		2ADE05AF1BC4C0A10024D78E /* NEVisualCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEVisualCell.xib; sourceTree = "<group>"; };
+		2ADE05B21BC4CF020024D78E /* NEFounderViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEFounderViewCell.h; sourceTree = "<group>"; };
+		2ADE05B31BC4CF020024D78E /* NEFounderViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEFounderViewCell.m; sourceTree = "<group>"; };
+		2ADE05B41BC4CF020024D78E /* NEFounderViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEFounderViewCell.xib; sourceTree = "<group>"; };
+		2AE202581BC82D8F00023165 /* NELable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NELable.h; sourceTree = "<group>"; };
+		2AE202591BC82D8F00023165 /* NELable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NELable.m; sourceTree = "<group>"; };
+		2AED598F1BC0173D0018A44D /* NECommonTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NECommonTableViewModel.h; sourceTree = "<group>"; };
+		2AED59901BC0173D0018A44D /* NECommonTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NECommonTableViewModel.m; sourceTree = "<group>"; };
+		2AED59921BC01BB60018A44D /* NSDictionary+LOG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LOG.m"; sourceTree = "<group>"; };
+		2AEE71E41BC16116001EA1B3 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		2AEE71E51BC190BE001EA1B3 /* NENewsBoBoLiveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NENewsBoBoLiveModel.h; sourceTree = "<group>"; };
+		2AEE71E61BC190BE001EA1B3 /* NENewsBoBoLiveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NENewsBoBoLiveModel.m; sourceTree = "<group>"; };
+		2AF191F21BBF6B06000BA131 /* NECommonNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NECommonNewsCell.h; sourceTree = "<group>"; };
+		2AF191F31BBF6B06000BA131 /* NECommonNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NECommonNewsCell.m; sourceTree = "<group>"; };
+		2AF191F41BBF6B06000BA131 /* NECommonNewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NECommonNewsCell.xib; sourceTree = "<group>"; };
+		2AF407991BC380E800F316B7 /* NEWordNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEWordNewsCell.h; sourceTree = "<group>"; };
+		2AF4079A1BC380E800F316B7 /* NEWordNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEWordNewsCell.m; sourceTree = "<group>"; };
+		2AF4079B1BC380E800F316B7 /* NEWordNewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEWordNewsCell.xib; sourceTree = "<group>"; };
+		2AF4079E1BC3817800F316B7 /* NEFollowNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEFollowNewsCell.h; sourceTree = "<group>"; };
+		2AF4079F1BC3817800F316B7 /* NEFollowNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEFollowNewsCell.m; sourceTree = "<group>"; };
+		2AF407A01BC3817800F316B7 /* NEFollowNewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEFollowNewsCell.xib; sourceTree = "<group>"; };
+		2AF407A31BC3819600F316B7 /* NEPictureNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEPictureNewsCell.h; sourceTree = "<group>"; };
+		2AF407A41BC3819600F316B7 /* NEPictureNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEPictureNewsCell.m; sourceTree = "<group>"; };
+		2AF407A51BC3819600F316B7 /* NEPictureNewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEPictureNewsCell.xib; sourceTree = "<group>"; };
+		2AF77A141BC6C29F005CA893 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		2AF77A161BC6C5E8005CA893 /* NEMyRecommendReadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEMyRecommendReadModel.h; sourceTree = "<group>"; };
+		2AF77A171BC6C5E8005CA893 /* NEMyRecommendReadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEMyRecommendReadModel.m; sourceTree = "<group>"; };
+		2AF77A191BC6C7CD005CA893 /* NEBannerListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEBannerListModel.h; sourceTree = "<group>"; };
+		2AF77A1A1BC6C7CD005CA893 /* NEBannerListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEBannerListModel.m; sourceTree = "<group>"; };
+		2AF9E06C1BBE75C3009A0891 /* NEReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEReadViewController.h; sourceTree = "<group>"; };
+		2AF9E06D1BBE75C3009A0891 /* NEReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEReadViewController.m; sourceTree = "<group>"; };
+		2AF9E0751BBE769E009A0891 /* NEFoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEFoundViewController.h; sourceTree = "<group>"; };
+		2AF9E0761BBE769E009A0891 /* NEFoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEFoundViewController.m; sourceTree = "<group>"; };
+		2AF9E07E1BBE7992009A0891 /* NENewsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NENewsCollectionViewController.h; sourceTree = "<group>"; };
+		2AF9E07F1BBE7992009A0891 /* NENewsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NENewsCollectionViewController.m; sourceTree = "<group>"; };
+		2AF9E0831BBE79E1009A0891 /* NENewsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NENewsCollectionViewCell.h; sourceTree = "<group>"; };
+		2AF9E0841BBE79E1009A0891 /* NENewsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NENewsCollectionViewCell.m; sourceTree = "<group>"; };
+		2AF9E0851BBE79E1009A0891 /* NENewsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NENewsCollectionViewCell.xib; sourceTree = "<group>"; };
+		2AF9E0881BBE8461009A0891 /* NEConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEConst.h; sourceTree = "<group>"; };
+		2AF9E0891BBE8461009A0891 /* NEConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEConst.m; sourceTree = "<group>"; };
+		2AF9E08B1BBE8559009A0891 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5E0324D4AF3AB9120A8A2C36 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		73D39C2F73870EAFF65CC237 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EFFD4E1881C6F41F31E76873 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A3D92B01BBE68D60075D9F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40FDF120439BE51DF9DDE99 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3D92C91BBE68D60075D9F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A3D92AA1BBE68D60075D9F5 = {
+			isa = PBXGroup;
+			children = (
+				2A3D92B51BBE68D60075D9F5 /* NetEase.News */,
+				2A3D92CF1BBE68D60075D9F5 /* NetEase.NewsTests */,
+				2A3D92B41BBE68D60075D9F5 /* Products */,
+				A6218405FA3907A949C6D598 /* Pods */,
+				3CFCBDD36A9BF26832F02A01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A3D92B41BBE68D60075D9F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A3D92B31BBE68D60075D9F5 /* NetEase.News.app */,
+				2A3D92CC1BBE68D60075D9F5 /* NetEase.NewsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A3D92B51BBE68D60075D9F5 /* NetEase.News */ = {
+			isa = PBXGroup;
+			children = (
+				2A3D92DC1BBE726A0075D9F5 /* Classes */,
+				2A3D92C31BBE68D60075D9F5 /* Images.xcassets */,
+				2A3D92B61BBE68D60075D9F5 /* Supporting Files */,
+			);
+			path = NetEase.News;
+			sourceTree = "<group>";
+		};
+		2A3D92B61BBE68D60075D9F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ABD6ADB1BC2A24D00DEC10F /* requestURLArrs.plist */,
+				2A3D92B71BBE68D60075D9F5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A3D92CF1BBE68D60075D9F5 /* NetEase.NewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A3D92D21BBE68D60075D9F5 /* NetEase_NewsTests.m */,
+				2A3D92D01BBE68D60075D9F5 /* Supporting Files */,
+			);
+			path = NetEase.NewsTests;
+			sourceTree = "<group>";
+		};
+		2A3D92D01BBE68D60075D9F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A3D92D11BBE68D60075D9F5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A3D92DC1BBE726A0075D9F5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2A3D92EE1BBE726A0075D9F5 /* 新闻 */,
+				2A3D92F61BBE726A0075D9F5 /* 阅读 */,
+				2A3D92F21BBE726A0075D9F5 /* 视听 */,
+				2A3D92E21BBE726A0075D9F5 /* 发现 */,
+				2A3D92EA1BBE726A0075D9F5 /* 我 */,
+				2A3D92E61BBE726A0075D9F5 /* 基本框架- TabBar */,
+				2A3D92DD1BBE726A0075D9F5 /* other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2A3D92DD1BBE726A0075D9F5 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				2A84C4231BC4F20200815147 /* UIImage+Image */,
+				2A3D92E01BBE726A0075D9F5 /* category */,
+				2A3D92DE1BBE726A0075D9F5 /* AppDelegate.h */,
+				2A3D92DF1BBE726A0075D9F5 /* AppDelegate.m */,
+				2AEE71E41BC16116001EA1B3 /* Singleton.h */,
+				2A3D92E11BBE726A0075D9F5 /* main.m */,
+				2AF9E0881BBE8461009A0891 /* NEConst.h */,
+				2A655C1D1BC401F600B014F9 /* MJExtensionConfig.h */,
+				2A655C1E1BC401F600B014F9 /* MJExtensionConfig.m */,
+				2AF9E0891BBE8461009A0891 /* NEConst.m */,
+				2AF9E08B1BBE8559009A0891 /* PrefixHeader.pch */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		2A3D92E01BBE726A0075D9F5 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				2A67712D1BC3C21D006D0E2C /* NSString+XMGExtension */,
+				2AED59941BC01BC60018A44D /* NSDictionary+LOG */,
+				2AED59921BC01BB60018A44D /* NSDictionary+LOG.m */,
+				2A9FD9FC1BBEAA17000938DD /* UIView+SMARTExtension */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		2A3D92E21BBE726A0075D9F5 /* 发现 */ = {
+			isa = PBXGroup;
+			children = (
+				2A3D92E31BBE726A0075D9F5 /* Cotroller */,
+				2A3D92E41BBE726A0075D9F5 /* Model */,
+				2A3D92E51BBE726A0075D9F5 /* View */,
+			);
+			path = "发现";
+			sourceTree = "<group>";
+		};
+		2A3D92E31BBE726A0075D9F5 /* Cotroller */ = {
+			isa = PBXGroup;
+			children = (
+				2AF9E0751BBE769E009A0891 /* NEFoundViewController.h */,
+				2AF9E0761BBE769E009A0891 /* NEFoundViewController.m */,
+			);
+			path = Cotroller;
+			sourceTree = "<group>";
+		};
+		2A3D92E41BBE726A0075D9F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A2EBEBE1BC64430005D8395 /* NEBannerModel.h */,
+				2A2EBEBF1BC64430005D8395 /* NEBannerModel.m */,
+				2A2EBEC11BC64449005D8395 /* NERecommendModel.h */,
+				2A2EBEC21BC64449005D8395 /* NERecommendModel.m */,
+				2A2EBEC41BC6445F005D8395 /* NEStreamModel.h */,
+				2A2EBEC51BC6445F005D8395 /* NEStreamModel.m */,
+				2A2EBEC71BC645AB005D8395 /* NEContextModel.h */,
+				2A2EBEC81BC645AB005D8395 /* NEContextModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A3D92E51BBE726A0075D9F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE05B21BC4CF020024D78E /* NEFounderViewCell.h */,
+				2ADE05B31BC4CF020024D78E /* NEFounderViewCell.m */,
+				2ADE05B41BC4CF020024D78E /* NEFounderViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A3D92E61BBE726A0075D9F5 /* 基本框架- TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2A3D92E71BBE726A0075D9F5 /* Cotroller */,
+				2A3D92E81BBE726A0075D9F5 /* Model */,
+				2A3D92E91BBE726A0075D9F5 /* View */,
+			);
+			path = "基本框架- TabBar";
+			sourceTree = "<group>";
+		};
+		2A3D92E71BBE726A0075D9F5 /* Cotroller */ = {
+			isa = PBXGroup;
+			children = (
+				2A3D92FF1BBE73750075D9F5 /* NETabBarController.h */,
+				2A3D93001BBE73750075D9F5 /* NETabBarController.m */,
+			);
+			path = Cotroller;
+			sourceTree = "<group>";
+		};
+		2A3D92E81BBE726A0075D9F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A3D92E91BBE726A0075D9F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A3D92EA1BBE726A0075D9F5 /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+				2A3D92EB1BBE726A0075D9F5 /* Cotroller */,
+				2A3D92EC1BBE726A0075D9F5 /* Model */,
+				2A3D92ED1BBE726A0075D9F5 /* View */,
+			);
+			path = "我";
+			sourceTree = "<group>";
+		};
+		2A3D92EB1BBE726A0075D9F5 /* Cotroller */ = {
+			isa = PBXGroup;
+			children = (
+				2A6771251BC3BB74006D0E2C /* NEMeViewController.h */,
+				2A6771261BC3BB74006D0E2C /* NEMeViewController.m */,
+				2A6771271BC3BB74006D0E2C /* NEMeViewController.xib */,
+				2A655C171BC3C6FB00B014F9 /* NESettingViewController.h */,
+				2A655C181BC3C6FB00B014F9 /* NESettingViewController.m */,
+			);
+			path = Cotroller;
+			sourceTree = "<group>";
+		};
+		2A3D92EC1BBE726A0075D9F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A3D92ED1BBE726A0075D9F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A655C141BC3C66B00B014F9 /* NEClearCell.h */,
+				2A655C151BC3C66B00B014F9 /* NEClearCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A3D92EE1BBE726A0075D9F5 /* 新闻 */ = {
+			isa = PBXGroup;
+			children = (
+				2A3D92EF1BBE726A0075D9F5 /* Cotroller */,
+				2A3D92F01BBE726A0075D9F5 /* Model */,
+				2A3D92F11BBE726A0075D9F5 /* View */,
+			);
+			path = "新闻";
+			sourceTree = "<group>";
+		};
+		2A3D92EF1BBE726A0075D9F5 /* Cotroller */ = {
+			isa = PBXGroup;
+			children = (
+				2AF9E07E1BBE7992009A0891 /* NENewsCollectionViewController.h */,
+				2AF9E07F1BBE7992009A0891 /* NENewsCollectionViewController.m */,
+			);
+			path = Cotroller;
+			sourceTree = "<group>";
+		};
+		2A3D92F01BBE726A0075D9F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A6932281BBFACA200DE80AC /* NECommonHeaderViewModel.h */,
+				2A6932291BBFACA200DE80AC /* NECommonHeaderViewModel.m */,
+				2AED598F1BC0173D0018A44D /* NECommonTableViewModel.h */,
+				2AED59901BC0173D0018A44D /* NECommonTableViewModel.m */,
+				2AD7CF071BC138B80002A553 /* NENewsLiveModel.h */,
+				2AD7CF081BC138B80002A553 /* NENewsLiveModel.m */,
+				2AEE71E51BC190BE001EA1B3 /* NENewsBoBoLiveModel.h */,
+				2AEE71E61BC190BE001EA1B3 /* NENewsBoBoLiveModel.m */,
+				2A2417A61BC3A303002C9EE2 /* NENewsFollowModel.h */,
+				2A2417A71BC3A303002C9EE2 /* NENewsFollowModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A3D92F11BBE726A0075D9F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2AF9E0831BBE79E1009A0891 /* NENewsCollectionViewCell.h */,
+				2AF9E0841BBE79E1009A0891 /* NENewsCollectionViewCell.m */,
+				2AF9E0851BBE79E1009A0891 /* NENewsCollectionViewCell.xib */,
+				2AF191F21BBF6B06000BA131 /* NECommonNewsCell.h */,
+				2AF191F31BBF6B06000BA131 /* NECommonNewsCell.m */,
+				2AF191F41BBF6B06000BA131 /* NECommonNewsCell.xib */,
+				2AD7CEFD1BC116B90002A553 /* NEImgExtraNewsCell.h */,
+				2AD7CEFE1BC116B90002A553 /* NEImgExtraNewsCell.m */,
+				2AD7CEFF1BC116B90002A553 /* NEImgExtraNewsCell.xib */,
+				2AD7CF021BC135750002A553 /* NELiveNewsCell.h */,
+				2AD7CF031BC135750002A553 /* NELiveNewsCell.m */,
+				2AD7CF041BC135750002A553 /* NELiveNewsCell.xib */,
+				2AF407991BC380E800F316B7 /* NEWordNewsCell.h */,
+				2AF4079A1BC380E800F316B7 /* NEWordNewsCell.m */,
+				2AF4079B1BC380E800F316B7 /* NEWordNewsCell.xib */,
+				2AF4079E1BC3817800F316B7 /* NEFollowNewsCell.h */,
+				2AF4079F1BC3817800F316B7 /* NEFollowNewsCell.m */,
+				2AF407A01BC3817800F316B7 /* NEFollowNewsCell.xib */,
+				2AF407A31BC3819600F316B7 /* NEPictureNewsCell.h */,
+				2AF407A41BC3819600F316B7 /* NEPictureNewsCell.m */,
+				2AF407A51BC3819600F316B7 /* NEPictureNewsCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A3D92F21BBE726A0075D9F5 /* 视听 */ = {
+			isa = PBXGroup;
+			children = (
+				2A3D92F31BBE726A0075D9F5 /* Cotroller */,
+				2A3D92F41BBE726A0075D9F5 /* Model */,
+				2A3D92F51BBE726A0075D9F5 /* View */,
+			);
+			path = "视听";
+			sourceTree = "<group>";
+		};
+		2A3D92F31BBE726A0075D9F5 /* Cotroller */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE05A41BC4B4AD0024D78E /* NEAudioVisualViewController.h */,
+				2ADE05A51BC4B4AD0024D78E /* NEAudioVisualViewController.m */,
+				2ADE05A71BC4B8B50024D78E /* NEVisualController.h */,
+				2ADE05A81BC4B8B50024D78E /* NEVisualController.m */,
+				2ADE05AA1BC4B8C50024D78E /* NEAudioController.h */,
+				2ADE05AB1BC4B8C50024D78E /* NEAudioController.m */,
+			);
+			path = Cotroller;
+			sourceTree = "<group>";
+		};
+		2A3D92F41BBE726A0075D9F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A2EBECD1BC68D50005D8395 /* NEVideoSidModel.h */,
+				2A2EBECE1BC68D50005D8395 /* NEVideoSidModel.m */,
+				2A2EBED01BC68D9F005D8395 /* NEVideoModel.h */,
+				2A2EBED11BC68D9F005D8395 /* NEVideoModel.m */,
+				2A2EBED31BC697DF005D8395 /* NEAudioModel.h */,
+				2A2EBED41BC697DF005D8395 /* NEAudioModel.m */,
+				2A2EBED61BC697F2005D8395 /* NEAudioTopModel.h */,
+				2A2EBED71BC697F2005D8395 /* NEAudioTopModel.m */,
+				2A2EBEDC1BC698C6005D8395 /* NEPerAudioModle.h */,
+				2A2EBEDD1BC698C6005D8395 /* NEPerAudioModle.m */,
+				2A2EBEDF1BC69922005D8395 /* NERadioModel.h */,
+				2A2EBEE01BC69922005D8395 /* NERadioModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A3D92F51BBE726A0075D9F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A4DB5FB1BC417AD0050A0EB /* NEAudioCell.h */,
+				2A4DB5FC1BC417AD0050A0EB /* NEAudioCell.m */,
+				2A4DB5FD1BC417AD0050A0EB /* NEAudioCell.xib */,
+				2A4DB6081BC420190050A0EB /* NEAudioButton.h */,
+				2A4DB6091BC420190050A0EB /* NEAudioButton.m */,
+				2A4DB60D1BC4266E0050A0EB /* NEPerMusicButton.h */,
+				2A4DB60E1BC4266E0050A0EB /* NEPerMusicButton.m */,
+				2A2AE71D1BC4AA3E0001D82E /* NEPerMusicView.h */,
+				2A2AE71E1BC4AA3E0001D82E /* NEPerMusicView.m */,
+				2A2AE7201BC4AA4E0001D82E /* NEPerMusicView.xib */,
+				2ADE05AD1BC4C0A10024D78E /* NEVisualCell.h */,
+				2ADE05AE1BC4C0A10024D78E /* NEVisualCell.m */,
+				2ADE05AF1BC4C0A10024D78E /* NEVisualCell.xib */,
+				2AE202581BC82D8F00023165 /* NELable.h */,
+				2AE202591BC82D8F00023165 /* NELable.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A3D92F61BBE726A0075D9F5 /* 阅读 */ = {
+			isa = PBXGroup;
+			children = (
+				2A3D92F71BBE726A0075D9F5 /* Cotroller */,
+				2A3D92F81BBE726A0075D9F5 /* Model */,
+				2A3D92F91BBE726A0075D9F5 /* View */,
+			);
+			path = "阅读";
+			sourceTree = "<group>";
+		};
+		2A3D92F71BBE726A0075D9F5 /* Cotroller */ = {
+			isa = PBXGroup;
+			children = (
+				2AF9E06C1BBE75C3009A0891 /* NEReadViewController.h */,
+				2AF9E06D1BBE75C3009A0891 /* NEReadViewController.m */,
+				2AB92BB91BC507BD00C295A3 /* NERecommentReadController.h */,
+				2AB92BBA1BC507BD00C295A3 /* NERecommentReadController.m */,
+				2AB92BBC1BC507D300C295A3 /* NEMyReadViewController.h */,
+				2AB92BBD1BC507D300C295A3 /* NEMyReadViewController.m */,
+			);
+			path = Cotroller;
+			sourceTree = "<group>";
+		};
+		2A3D92F81BBE726A0075D9F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2AF77A161BC6C5E8005CA893 /* NEMyRecommendReadModel.h */,
+				2AF77A171BC6C5E8005CA893 /* NEMyRecommendReadModel.m */,
+				2AF77A191BC6C7CD005CA893 /* NEBannerListModel.h */,
+				2AF77A1A1BC6C7CD005CA893 /* NEBannerListModel.m */,
+				2A22EE101BC78CBC00BE7146 /* NERecommentReadModel.h */,
+				2A22EE111BC78CBC00BE7146 /* NERecommentReadModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A3D92F91BBE726A0075D9F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A421B701BC511730068026B /* NERecommentReadCell.h */,
+				2A421B711BC511730068026B /* NERecommentReadCell.m */,
+				2A421B721BC511730068026B /* NERecommentReadCell.xib */,
+				2A22EE221BC7913400BE7146 /* NELeftPictureReadCell.h */,
+				2A22EE231BC7913400BE7146 /* NELeftPictureReadCell.m */,
+				2A22EE241BC7913400BE7146 /* NELeftPictureReadCell.xib */,
+				2A22EE271BC7915200BE7146 /* NERightPitureReadCell.h */,
+				2A22EE281BC7915200BE7146 /* NERightPitureReadCell.m */,
+				2A22EE291BC7915200BE7146 /* NERightPitureReadCell.xib */,
+				2A22EE2C1BC791C900BE7146 /* NERecBigPictureReadCell.h */,
+				2A22EE2D1BC791C900BE7146 /* NERecBigPictureReadCell.m */,
+				2A22EE2E1BC791C900BE7146 /* NERecBigPictureReadCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A67712D1BC3C21D006D0E2C /* NSString+XMGExtension */ = {
+			isa = PBXGroup;
+			children = (
+				2A67712E1BC3C21D006D0E2C /* NSString+XMGExtension.h */,
+				2A67712F1BC3C21D006D0E2C /* NSString+XMGExtension.m */,
+			);
+			path = "NSString+XMGExtension";
+			sourceTree = "<group>";
+		};
+		2A84C4231BC4F20200815147 /* UIImage+Image */ = {
+			isa = PBXGroup;
+			children = (
+				2A84C4241BC4F20200815147 /* UIImage+Image.h */,
+				2A84C4251BC4F20200815147 /* UIImage+Image.m */,
+			);
+			path = "UIImage+Image";
+			sourceTree = "<group>";
+		};
+		2A9FD9FC1BBEAA17000938DD /* UIView+SMARTExtension */ = {
+			isa = PBXGroup;
+			children = (
+				2A9FD9FD1BBEAA17000938DD /* UIView+SMARTExtension.h */,
+				2A9FD9FE1BBEAA17000938DD /* UIView+SMARTExtension.m */,
+			);
+			name = "UIView+SMARTExtension";
+			path = "UIView+XMGExtension";
+			sourceTree = "<group>";
+		};
+		2AED59941BC01BC60018A44D /* NSDictionary+LOG */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "NSDictionary+LOG";
+			sourceTree = "<group>";
+		};
+		3CFCBDD36A9BF26832F02A01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AF77A141BC6C29F005CA893 /* libz.dylib */,
+				5E0324D4AF3AB9120A8A2C36 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6218405FA3907A949C6D598 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73D39C2F73870EAFF65CC237 /* Pods.debug.xcconfig */,
+				EFFD4E1881C6F41F31E76873 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A3D92B21BBE68D60075D9F5 /* NetEase.News */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A3D92D61BBE68D60075D9F5 /* Build configuration list for PBXNativeTarget "NetEase.News" */;
+			buildPhases = (
+				57752F9A4B7941ECBB602313 /* Check Pods Manifest.lock */,
+				2A3D92AF1BBE68D60075D9F5 /* Sources */,
+				2A3D92B01BBE68D60075D9F5 /* Frameworks */,
+				2A3D92B11BBE68D60075D9F5 /* Resources */,
+				0A2B6F4F2A9E63E033EFE345 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetEase.News;
+			productName = NetEase.News;
+			productReference = 2A3D92B31BBE68D60075D9F5 /* NetEase.News.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A3D92CB1BBE68D60075D9F5 /* NetEase.NewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A3D92D91BBE68D60075D9F5 /* Build configuration list for PBXNativeTarget "NetEase.NewsTests" */;
+			buildPhases = (
+				2A3D92C81BBE68D60075D9F5 /* Sources */,
+				2A3D92C91BBE68D60075D9F5 /* Frameworks */,
+				2A3D92CA1BBE68D60075D9F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A3D92CE1BBE68D60075D9F5 /* PBXTargetDependency */,
+			);
+			name = NetEase.NewsTests;
+			productName = NetEase.NewsTests;
+			productReference = 2A3D92CC1BBE68D60075D9F5 /* NetEase.NewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A3D92AB1BBE68D60075D9F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NE;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = SMART;
+				TargetAttributes = {
+					2A3D92B21BBE68D60075D9F5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2A3D92CB1BBE68D60075D9F5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2A3D92B21BBE68D60075D9F5;
+					};
+				};
+			};
+			buildConfigurationList = 2A3D92AE1BBE68D60075D9F5 /* Build configuration list for PBXProject "NetEase.News" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A3D92AA1BBE68D60075D9F5;
+			productRefGroup = 2A3D92B41BBE68D60075D9F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A3D92B21BBE68D60075D9F5 /* NetEase.News */,
+				2A3D92CB1BBE68D60075D9F5 /* NetEase.NewsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A3D92B11BBE68D60075D9F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF407A21BC3817800F316B7 /* NEFollowNewsCell.xib in Resources */,
+				2A22EE301BC791C900BE7146 /* NERecBigPictureReadCell.xib in Resources */,
+				2A4DB5FF1BC417AD0050A0EB /* NEAudioCell.xib in Resources */,
+				2ABD6ADC1BC2A24D00DEC10F /* requestURLArrs.plist in Resources */,
+				2ADE05B11BC4C0A10024D78E /* NEVisualCell.xib in Resources */,
+				2AD7CF011BC116B90002A553 /* NEImgExtraNewsCell.xib in Resources */,
+				2AF9E0871BBE79E1009A0891 /* NENewsCollectionViewCell.xib in Resources */,
+				2AD7CF061BC135750002A553 /* NELiveNewsCell.xib in Resources */,
+				2A3D92C41BBE68D60075D9F5 /* Images.xcassets in Resources */,
+				2A22EE2B1BC7915200BE7146 /* NERightPitureReadCell.xib in Resources */,
+				2AF191F61BBF6B06000BA131 /* NECommonNewsCell.xib in Resources */,
+				2A6771291BC3BB74006D0E2C /* NEMeViewController.xib in Resources */,
+				2A2AE7211BC4AA4E0001D82E /* NEPerMusicView.xib in Resources */,
+				2ADE05B61BC4CF020024D78E /* NEFounderViewCell.xib in Resources */,
+				2A421B741BC511730068026B /* NERecommentReadCell.xib in Resources */,
+				2AF4079D1BC380E800F316B7 /* NEWordNewsCell.xib in Resources */,
+				2A22EE261BC7913400BE7146 /* NELeftPictureReadCell.xib in Resources */,
+				2AF407A71BC3819600F316B7 /* NEPictureNewsCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3D92CA1BBE68D60075D9F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A2B6F4F2A9E63E033EFE345 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57752F9A4B7941ECBB602313 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A3D92AF1BBE68D60075D9F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A22EE2A1BC7915200BE7146 /* NERightPitureReadCell.m in Sources */,
+				2A22EE251BC7913400BE7146 /* NELeftPictureReadCell.m in Sources */,
+				2AD7CF001BC116B90002A553 /* NEImgExtraNewsCell.m in Sources */,
+				2ADE05AC1BC4B8C50024D78E /* NEAudioController.m in Sources */,
+				2A3D92FB1BBE726A0075D9F5 /* main.m in Sources */,
+				2A22EE121BC78CBC00BE7146 /* NERecommentReadModel.m in Sources */,
+				2A421B731BC511730068026B /* NERecommentReadCell.m in Sources */,
+				2A2EBEC61BC6445F005D8395 /* NEStreamModel.m in Sources */,
+				2A2417A81BC3A303002C9EE2 /* NENewsFollowModel.m in Sources */,
+				2A69322A1BBFACA200DE80AC /* NECommonHeaderViewModel.m in Sources */,
+				2AF9E0771BBE769E009A0891 /* NEFoundViewController.m in Sources */,
+				2AF191F51BBF6B06000BA131 /* NECommonNewsCell.m in Sources */,
+				2AF77A181BC6C5E8005CA893 /* NEMyRecommendReadModel.m in Sources */,
+				2A2EBEDE1BC698C6005D8395 /* NEPerAudioModle.m in Sources */,
+				2ADE05B01BC4C0A10024D78E /* NEVisualCell.m in Sources */,
+				2AF9E06E1BBE75C3009A0891 /* NEReadViewController.m in Sources */,
+				2AF9E0811BBE7992009A0891 /* NENewsCollectionViewController.m in Sources */,
+				2A2EBED81BC697F2005D8395 /* NEAudioTopModel.m in Sources */,
+				2AF77A1B1BC6C7CD005CA893 /* NEBannerListModel.m in Sources */,
+				2ADE05B51BC4CF020024D78E /* NEFounderViewCell.m in Sources */,
+				2A2EBEC01BC64430005D8395 /* NEBannerModel.m in Sources */,
+				2A4DB60F1BC4266E0050A0EB /* NEPerMusicButton.m in Sources */,
+				2A3D93011BBE73750075D9F5 /* NETabBarController.m in Sources */,
+				2AD7CF091BC138B80002A553 /* NENewsLiveModel.m in Sources */,
+				2AEE71E71BC190BE001EA1B3 /* NENewsBoBoLiveModel.m in Sources */,
+				2A4DB60A1BC420190050A0EB /* NEAudioButton.m in Sources */,
+				2A2EBEC31BC64449005D8395 /* NERecommendModel.m in Sources */,
+				2A4DB5FE1BC417AD0050A0EB /* NEAudioCell.m in Sources */,
+				2ADE05A61BC4B4AD0024D78E /* NEAudioVisualViewController.m in Sources */,
+				2A2EBEE11BC69922005D8395 /* NERadioModel.m in Sources */,
+				2AF4079C1BC380E800F316B7 /* NEWordNewsCell.m in Sources */,
+				2AE2025A1BC82D8F00023165 /* NELable.m in Sources */,
+				2A655C191BC3C6FB00B014F9 /* NESettingViewController.m in Sources */,
+				2A2EBED21BC68D9F005D8395 /* NEVideoModel.m in Sources */,
+				2A6771281BC3BB74006D0E2C /* NEMeViewController.m in Sources */,
+				2A2EBEC91BC645AB005D8395 /* NEContextModel.m in Sources */,
+				2A84C4261BC4F20200815147 /* UIImage+Image.m in Sources */,
+				2A22EE2F1BC791C900BE7146 /* NERecBigPictureReadCell.m in Sources */,
+				2A2EBECF1BC68D50005D8395 /* NEVideoSidModel.m in Sources */,
+				2AD7CF051BC135750002A553 /* NELiveNewsCell.m in Sources */,
+				2A655C1F1BC401F600B014F9 /* MJExtensionConfig.m in Sources */,
+				2A2EBED51BC697DF005D8395 /* NEAudioModel.m in Sources */,
+				2AB92BBB1BC507BD00C295A3 /* NERecommentReadController.m in Sources */,
+				2AF9E08A1BBE8461009A0891 /* NEConst.m in Sources */,
+				2A9FD9FF1BBEAA17000938DD /* UIView+SMARTExtension.m in Sources */,
+				2AF9E0861BBE79E1009A0891 /* NENewsCollectionViewCell.m in Sources */,
+				2AF407A11BC3817800F316B7 /* NEFollowNewsCell.m in Sources */,
+				2A3D92FA1BBE726A0075D9F5 /* AppDelegate.m in Sources */,
+				2AED59931BC01BB60018A44D /* NSDictionary+LOG.m in Sources */,
+				2ADE05A91BC4B8B50024D78E /* NEVisualController.m in Sources */,
+				2A6771301BC3C21D006D0E2C /* NSString+XMGExtension.m in Sources */,
+				2A2AE71F1BC4AA3E0001D82E /* NEPerMusicView.m in Sources */,
+				2AF407A61BC3819600F316B7 /* NEPictureNewsCell.m in Sources */,
+				2AB92BBE1BC507D300C295A3 /* NEMyReadViewController.m in Sources */,
+				2AED59911BC0173D0018A44D /* NECommonTableViewModel.m in Sources */,
+				2A655C161BC3C66B00B014F9 /* NEClearCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3D92C81BBE68D60075D9F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A3D92D31BBE68D60075D9F5 /* NetEase_NewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A3D92CE1BBE68D60075D9F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A3D92B21BBE68D60075D9F5 /* NetEase.News */;
+			targetProxy = 2A3D92CD1BBE68D60075D9F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A3D92D41BBE68D60075D9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A3D92D51BBE68D60075D9F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A3D92D71BBE68D60075D9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73D39C2F73870EAFF65CC237 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = NetEase.News/Classes/other/PrefixHeader.pch;
+				INFOPLIST_FILE = NetEase.News/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A3D92D81BBE68D60075D9F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFFD4E1881C6F41F31E76873 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = NetEase.News/Classes/other/PrefixHeader.pch;
+				INFOPLIST_FILE = NetEase.News/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A3D92DA1BBE68D60075D9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NetEase.NewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetEase.News.app/NetEase.News";
+			};
+			name = Debug;
+		};
+		2A3D92DB1BBE68D60075D9F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NetEase.NewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetEase.News.app/NetEase.News";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A3D92AE1BBE68D60075D9F5 /* Build configuration list for PBXProject "NetEase.News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3D92D41BBE68D60075D9F5 /* Debug */,
+				2A3D92D51BBE68D60075D9F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A3D92D61BBE68D60075D9F5 /* Build configuration list for PBXNativeTarget "NetEase.News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3D92D71BBE68D60075D9F5 /* Debug */,
+				2A3D92D81BBE68D60075D9F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A3D92D91BBE68D60075D9F5 /* Build configuration list for PBXNativeTarget "NetEase.NewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3D92DA1BBE68D60075D9F5 /* Debug */,
+				2A3D92DB1BBE68D60075D9F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A3D92AB1BBE68D60075D9F5 /* Project object */;
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="wordNews" rowHeight="138" id="KGk-i7-Jjw" customClass="NEWordNewsCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="138"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="137.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Lf-cm-61v" userLabel="文字Label">
+                        <rect key="frame" x="5" y="5" width="310" height="87"/>
+                        <color key="backgroundColor" red="0.93574416039999997" green="0.89765135350000003" blue="0.73435995249999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yol-tQ-cn8" userLabel="底部工具栏View">
+                        <rect key="frame" x="5" y="102" width="310" height="35"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6v5-7Y-eC1">
+                                <rect key="frame" x="103" y="0.0" width="66" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="5" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="5" maxY="0.0"/>
+                                <state key="normal" title="1345678" image="duanzi_up">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="duanzi_up_selected"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i56-pf-2mh">
+                                <rect key="frame" x="250" y="0.0" width="50" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Tot-eT-A0n"/>
+                                </constraints>
+                                <state key="normal" image="contenttoolbar_hd_share_light">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IKa-zH-LQN">
+                                <rect key="frame" x="178" y="0.0" width="62" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="5" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="5" maxX="5" maxY="0.0"/>
+                                <state key="normal" title="1345678" image="duanzi_down">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" title="134567" image="duanzi_down_selected"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="i56-pf-2mh" firstAttribute="top" secondItem="yol-tQ-cn8" secondAttribute="top" id="2k4-zH-6rA"/>
+                            <constraint firstItem="IKa-zH-LQN" firstAttribute="leading" secondItem="6v5-7Y-eC1" secondAttribute="trailing" constant="9" id="Av4-ON-zkn"/>
+                            <constraint firstAttribute="bottom" secondItem="6v5-7Y-eC1" secondAttribute="bottom" id="FV8-dd-Qjc"/>
+                            <constraint firstItem="IKa-zH-LQN" firstAttribute="top" secondItem="yol-tQ-cn8" secondAttribute="top" id="Lwn-ru-cN1"/>
+                            <constraint firstAttribute="height" constant="35" id="Rue-GQ-yuI"/>
+                            <constraint firstItem="6v5-7Y-eC1" firstAttribute="top" secondItem="yol-tQ-cn8" secondAttribute="top" id="V5V-1T-UTQ"/>
+                            <constraint firstAttribute="trailing" secondItem="i56-pf-2mh" secondAttribute="trailing" constant="10" id="WDu-cG-2jn"/>
+                            <constraint firstAttribute="bottom" secondItem="i56-pf-2mh" secondAttribute="bottom" id="aT3-Zc-nEJ"/>
+                            <constraint firstItem="i56-pf-2mh" firstAttribute="leading" secondItem="IKa-zH-LQN" secondAttribute="trailing" constant="10" id="g5P-bw-qGX"/>
+                            <constraint firstAttribute="bottom" secondItem="IKa-zH-LQN" secondAttribute="bottom" id="vpf-9y-uKY"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="3Lf-cm-61v" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="80z-gK-2Jj"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="3Lf-cm-61v" secondAttribute="bottom" constant="38" id="KSq-a5-lmo"/>
+                    <constraint firstAttribute="bottom" secondItem="yol-tQ-cn8" secondAttribute="bottom" id="LlK-J0-tfI"/>
+                    <constraint firstAttribute="trailing" secondItem="3Lf-cm-61v" secondAttribute="trailing" constant="5" id="Nfl-Ng-cG2"/>
+                    <constraint firstAttribute="trailing" secondItem="yol-tQ-cn8" secondAttribute="trailing" constant="5" id="g7Q-Bo-qQB"/>
+                    <constraint firstItem="3Lf-cm-61v" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="ibd-Ow-jKC"/>
+                    <constraint firstItem="yol-tQ-cn8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="jUI-bs-MWA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="down_button" destination="IKa-zH-LQN" id="eqk-Mr-MUS"/>
+                <outlet property="text_label" destination="3Lf-cm-61v" id="Tr1-xP-osC"/>
+                <outlet property="up_button" destination="6v5-7Y-eC1" id="ir3-bI-iQD"/>
+            </connections>
+            <point key="canvasLocation" x="259" y="286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="contenttoolbar_hd_share_light" width="30" height="30"/>
+        <image name="duanzi_down" width="17" height="16"/>
+        <image name="duanzi_down_selected" width="17" height="16"/>
+        <image name="duanzi_up" width="17" height="16"/>
+        <image name="duanzi_up_selected" width="17" height="16"/>
+    </resources>
+</document>

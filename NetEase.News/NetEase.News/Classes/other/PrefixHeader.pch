@@ -1,0 +1,80 @@
+//
+//  PrefixHeader.pch
+//  NetEase.News
+//
+//  Created by SMART on 15/10/2.
+//  Copyright © 2015年 SMART. All rights reserved.
+//
+
+
+#import "NEConst.h"
+#import "UIView+SMARTExtension.h"
+#import "NSString+XMGExtension.h"
+#import "MJExtensionConfig.h"
+#import "UIImage+Image.h"
+
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+//日志输出
+
+#ifdef DEBUG //开发阶段—DEBUG阶段：使用Log
+
+#define SMARTLog(...) NSLog(__VA_ARGS__)
+
+#else//发布阶段-上现阶段:移除Log
+
+#define SMARTLog(...)
+
+#endif
+
+
+
+//方法输出
+
+
+
+#define SMARTFuncLog SMARTLog(@"%s",__func__)
+
+
+
+
+//plist打印输出
+
+#define SMARTOutPutPlist(models,fileName) [models writeToFile:[NSString stringWithFormat:@"/Users/SMART/Desktop/%@.plist",fileName] atomically:YES]
+
+
+
+
+
+//baseURL
+
+#define SMARTBaseURL  @""
+
+
+
+//全局灰色
+
+#define SMARTCommonColor [UIColor colorWithRed:245/255.0 green:245/255.0  blue:245/255.0  alpha:1]
+
+
+
+//随机色
+
+#define SMARTRandomColor [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1]
+
+
+
+
+
+#define SMARTScreenW  [UIScreen mainScreen].bounds.size.width
+
+#define SMARTScreenH  [UIScreen mainScreen].bounds.size.height
+
+//弱引用
+
+#define SMARTWeakself __weak typeof(self) weakSelf = self;
+
+#endif /* PrefixHeader_pch */

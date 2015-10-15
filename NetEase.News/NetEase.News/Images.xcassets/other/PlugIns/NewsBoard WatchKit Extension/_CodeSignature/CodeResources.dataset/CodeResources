@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Info.plist</key>
+		<data>
+		dVh3WFiHBSOBCO0in3PwvsXPwqE=
+		</data>
+		<key>NewsBoard WatchKit App.app/AppIcon24x24@2x.png</key>
+		<data>
+		xLumSW4v/7162/JonxljtH2Bso8=
+		</data>
+		<key>NewsBoard WatchKit App.app/AppIcon27.5x27.5@2x.png</key>
+		<data>
+		+sQXu/Vhvfm02mw9N/WrnyYqDHs=
+		</data>
+		<key>NewsBoard WatchKit App.app/AppIcon29x29@2x.png</key>
+		<data>
+		VRQN1agjbPdcaCKO/ypYHygoooQ=
+		</data>
+		<key>NewsBoard WatchKit App.app/AppIcon29x29@3x.png</key>
+		<data>
+		ao8bHCCaFd67mpafSgC2ED8EWkY=
+		</data>
+		<key>NewsBoard WatchKit App.app/AppIcon40x40@2x.png</key>
+		<data>
+		loJj7wN/YB15ulWNbFFIZ4xqr68=
+		</data>
+		<key>NewsBoard WatchKit App.app/AppIcon44x44@2x.png</key>
+		<data>
+		Y3VY5LzFa2B86/9XVtHPKZ2wKwE=
+		</data>
+		<key>NewsBoard WatchKit App.app/AppIcon86x86@2x.png</key>
+		<data>
+		2ZQaZ7Kff9ngObbBtjI2+wZj2+I=
+		</data>
+		<key>NewsBoard WatchKit App.app/AppIcon98x98@2x.png</key>
+		<data>
+		x7PrmOp9m99f00pA2s1l0banndQ=
+		</data>
+		<key>NewsBoard WatchKit App.app/Assets.car</key>
+		<data>
+		rWZkkxkPX9Eny+o8X+CXkISDDfw=
+		</data>
+		<key>NewsBoard WatchKit App.app/Base.lproj/Interface-glance.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			n3qUEsmPL7U1TJJuvHCMRxTtmIE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>NewsBoard WatchKit App.app/Base.lproj/Interface-notification.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DGQnBcCyhYUklE/cJLA9fEnXWek=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>NewsBoard WatchKit App.app/Base.lproj/Interface.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			f+saQ9J7OZrJnpbPhFW8IItoOW4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>NewsBoard WatchKit App.app/Info.plist</key>
+		<data>
+		3y+3neKy4oZ/QkZwbgVNEO3Ll/k=
+		</data>
+		<key>NewsBoard WatchKit App.app/NewsBoard WatchKit App</key>
+		<data>
+		LlUOFxHxnlHkMX031Ad9wVVuGTE=
+		</data>
+		<key>NewsBoard WatchKit App.app/PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>NewsBoard WatchKit App.app/_CodeSignature/CodeResources</key>
+		<data>
+		nPZ2Nb7HPsCwxfIXUByOksq6sj4=
+		</data>
+		<key>NewsBoard WatchKit App.app/_WatchKitStub/WK</key>
+		<data>
+		hKUEKqmFsKjyTp+iIQ4h3hUvZX4=
+		</data>
+		<key>NewsBoard WatchKit App.app/archived-expanded-entitlements.xcent</key>
+		<data>
+		/YjI4VTFccnYg22+fQiCbunFT4E=
+		</data>
+		<key>NewsBoard WatchKit Extension.entitlements</key>
+		<data>
+		16AARwZRooqLD05e9H8dXmGp9jo=
+		</data>
+		<key>archived-expanded-entitlements.xcent</key>
+		<data>
+		16AARwZRooqLD05e9H8dXmGp9jo=
+		</data>
+	</dict>
+	<key>files2</key>
+	<dict>
+		<key>NewsBoard WatchKit App.app/AppIcon24x24@2x.png</key>
+		<data>
+		xLumSW4v/7162/JonxljtH2Bso8=
+		</data>
+		<key>NewsBoard WatchKit App.app/AppIcon27.5x27.5@2x.png</key>
+		<data>
+		+sQXu/Vhvfm02mw9N/WrnyYqDHs=
+		</data>
+		<key>NewsBoard WatchKit App.app/AppIcon29x29@2x.png</key>
+		<data>
+		VRQN1agjbPdcaCKO/ypYHygoooQ=
+		</data>
+		<key>NewsBoard WatchKit App.app/AppIcon29x29@3x.png</key>
+		<data>
+		ao8bHCCaFd67mpafSgC2ED8EWkY=
+		</data>
+		<key>NewsBoard WatchKit App.app/AppIcon40x40@2x.png</key>
+		<data>
+		loJj7wN/YB15ulWNbFFIZ4xqr68=
+		</data>
+		<key>NewsBoard WatchKit App.app/AppIcon44x44@2x.png</key>
+		<data>
+		Y3VY5LzFa2B86/9XVtHPKZ2wKwE=
+		</data>
+		<key>NewsBoard WatchKit App.app/AppIcon86x86@2x.png</key>
+		<data>
+		2ZQaZ7Kff9ngObbBtjI2+wZj2+I=
+		</data>
+		<key>NewsBoard WatchKit App.app/AppIcon98x98@2x.png</key>
+		<data>
+		x7PrmOp9m99f00pA2s1l0banndQ=
+		</data>
+		<key>NewsBoard WatchKit App.app/Assets.car</key>
+		<data>
+		rWZkkxkPX9Eny+o8X+CXkISDDfw=
+		</data>
+		<key>NewsBoard WatchKit App.app/Base.lproj/Interface-glance.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			n3qUEsmPL7U1TJJuvHCMRxTtmIE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>NewsBoard WatchKit App.app/Base.lproj/Interface-notification.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DGQnBcCyhYUklE/cJLA9fEnXWek=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>NewsBoard WatchKit App.app/Base.lproj/Interface.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			f+saQ9J7OZrJnpbPhFW8IItoOW4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>NewsBoard WatchKit App.app/Info.plist</key>
+		<data>
+		3y+3neKy4oZ/QkZwbgVNEO3Ll/k=
+		</data>
+		<key>NewsBoard WatchKit App.app/NewsBoard WatchKit App</key>
+		<data>
+		LlUOFxHxnlHkMX031Ad9wVVuGTE=
+		</data>
+		<key>NewsBoard WatchKit App.app/PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>NewsBoard WatchKit App.app/_CodeSignature/CodeResources</key>
+		<data>
+		nPZ2Nb7HPsCwxfIXUByOksq6sj4=
+		</data>
+		<key>NewsBoard WatchKit App.app/_WatchKitStub/WK</key>
+		<data>
+		hKUEKqmFsKjyTp+iIQ4h3hUvZX4=
+		</data>
+		<key>NewsBoard WatchKit App.app/archived-expanded-entitlements.xcent</key>
+		<data>
+		/YjI4VTFccnYg22+fQiCbunFT4E=
+		</data>
+		<key>NewsBoard WatchKit Extension.entitlements</key>
+		<data>
+		16AARwZRooqLD05e9H8dXmGp9jo=
+		</data>
+		<key>archived-expanded-entitlements.xcent</key>
+		<data>
+		16AARwZRooqLD05e9H8dXmGp9jo=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^</key>
+		<true/>
+		<key>^(Frameworks/[^/]+\.framework/|PlugIns/[^/]+\.appex/|PlugIns/[^/]+\.appex/Frameworks/[^/]+\.framework/|())SC_Info/[^/]+\.(sinf|supf|supp)$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<integer>10000</integer>
+		</dict>
+		<key>^.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Watch/[^/]+\.app/(Frameworks/[^/]+\.framework/|PlugIns/[^/]+\.appex/|PlugIns/[^/]+\.appex/Frameworks/[^/]+\.framework/)SC_Info/[^/]+\.(sinf|supf|supp)$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<integer>10000</integer>
+		</dict>
+		<key>^version.plist$</key>
+		<true/>
+	</dict>
+	<key>rules2</key>
+	<dict>
+		<key>.*\.dSYM($|/)</key>
+		<dict>
+			<key>weight</key>
+			<real>11</real>
+		</dict>
+		<key>^</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^(.*/)?\.DS_Store$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>2000</real>
+		</dict>
+		<key>^(Frameworks/[^/]+\.framework/|PlugIns/[^/]+\.appex/|PlugIns/[^/]+\.appex/Frameworks/[^/]+\.framework/|())SC_Info/[^/]+\.(sinf|supf|supp)$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<integer>10000</integer>
+		</dict>
+		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^.*</key>
+		<true/>
+		<key>^.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Info\.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^PkgInfo$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^Watch/[^/]+\.app/(Frameworks/[^/]+\.framework/|PlugIns/[^/]+\.appex/|PlugIns/[^/]+\.appex/Frameworks/[^/]+\.framework/)SC_Info/[^/]+\.(sinf|supf|supp)$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<integer>10000</integer>
+		</dict>
+		<key>^[^/]+$</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^embedded\.provisionprofile$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^version\.plist$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

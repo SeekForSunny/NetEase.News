@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="visualCell" rowHeight="292" id="wQc-OO-EU1" customClass="NEVisualCell">
+            <rect key="frame" x="0.0" y="0.0" width="344" height="292"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wQc-OO-EU1" id="kZz-r9-KsP">
+                <rect key="frame" x="0.0" y="0.0" width="344" height="291.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VB4J4Q0KM" translatesAutoresizingMaskIntoConstraints="NO" id="EAw-r3-091">
+                        <rect key="frame" x="0.0" y="0.0" width="344" height="200"/>
+                        <color key="backgroundColor" red="0.93574416039999997" green="0.89765135350000003" blue="0.73435995249999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="YuI-3p-6Sk"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="不要给电影骗了" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s1K-Oh-b54">
+                        <rect key="frame" x="5" y="230" width="334" height="20"/>
+                        <color key="backgroundColor" red="0.93574416039999997" green="0.89765135350000003" blue="0.73435995249999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Rly-9T-Izj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="piJ-iE-JlB">
+                        <rect key="frame" x="5" y="255" width="334" height="30"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6B6-JX-WaX">
+                                <rect key="frame" x="5" y="0.0" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <state key="normal" title="01:45" image="audionews_playlist_duration">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="op2-kE-UhV">
+                                <rect key="frame" x="56" y="0.0" width="60" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <state key="normal" title="1234567" image="night_cell_tag_video">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcJ-JH-zpI">
+                                <rect key="frame" x="226" y="0.0" width="63" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <state key="normal" title="12345" image="contenttoolbar_hd_comment_light">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Tk-z6-Sc1">
+                                <rect key="frame" x="299" y="0.0" width="30" height="30"/>
+                                <state key="normal" image="contenttoolbar_hd_share_light">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.7843137255" green="0.7843137255" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="gcJ-JH-zpI" firstAttribute="top" secondItem="piJ-iE-JlB" secondAttribute="top" id="0US-sw-MSf"/>
+                            <constraint firstAttribute="height" constant="30" id="53W-uh-vU9"/>
+                            <constraint firstAttribute="bottom" secondItem="5Tk-z6-Sc1" secondAttribute="bottom" id="EkX-6a-Yps"/>
+                            <constraint firstItem="5Tk-z6-Sc1" firstAttribute="top" secondItem="piJ-iE-JlB" secondAttribute="top" id="HAr-9r-D1t"/>
+                            <constraint firstAttribute="bottom" secondItem="6B6-JX-WaX" secondAttribute="bottom" id="MLz-Ym-jgX"/>
+                            <constraint firstItem="5Tk-z6-Sc1" firstAttribute="leading" secondItem="gcJ-JH-zpI" secondAttribute="trailing" constant="10" id="Thq-2P-bHP"/>
+                            <constraint firstAttribute="bottom" secondItem="gcJ-JH-zpI" secondAttribute="bottom" id="VOg-Sf-XRm"/>
+                            <constraint firstItem="6B6-JX-WaX" firstAttribute="leading" secondItem="piJ-iE-JlB" secondAttribute="leading" constant="5" id="WZ7-rF-i8u"/>
+                            <constraint firstItem="6B6-JX-WaX" firstAttribute="top" secondItem="piJ-iE-JlB" secondAttribute="top" id="cLR-S6-ol2"/>
+                            <constraint firstAttribute="trailing" secondItem="5Tk-z6-Sc1" secondAttribute="trailing" constant="5" id="d0g-6p-I7N"/>
+                            <constraint firstAttribute="bottom" secondItem="op2-kE-UhV" secondAttribute="bottom" id="egS-bt-SZG"/>
+                            <constraint firstItem="op2-kE-UhV" firstAttribute="leading" secondItem="6B6-JX-WaX" secondAttribute="trailing" constant="5" id="j39-wW-0CC"/>
+                            <constraint firstItem="op2-kE-UhV" firstAttribute="top" secondItem="piJ-iE-JlB" secondAttribute="top" id="v4S-0d-ZuE"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="电影VS真实生活的不同之处" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzR-rD-CrZ">
+                        <rect key="frame" x="5" y="205" width="334" height="20"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="gfP-qP-67h"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="dzR-rD-CrZ" firstAttribute="top" secondItem="EAw-r3-091" secondAttribute="bottom" constant="5" id="0Hm-7X-Ey3"/>
+                    <constraint firstItem="s1K-Oh-b54" firstAttribute="leading" secondItem="kZz-r9-KsP" secondAttribute="leading" constant="5" id="CV0-fE-Vha"/>
+                    <constraint firstAttribute="trailing" secondItem="EAw-r3-091" secondAttribute="trailing" id="CnL-nQ-rfe"/>
+                    <constraint firstItem="s1K-Oh-b54" firstAttribute="top" secondItem="dzR-rD-CrZ" secondAttribute="bottom" constant="5" id="DjE-Cy-01J"/>
+                    <constraint firstAttribute="trailing" secondItem="dzR-rD-CrZ" secondAttribute="trailing" constant="5" id="LFC-of-WbG"/>
+                    <constraint firstItem="EAw-r3-091" firstAttribute="top" secondItem="kZz-r9-KsP" secondAttribute="top" id="Lsz-Eg-eEh"/>
+                    <constraint firstAttribute="trailing" secondItem="piJ-iE-JlB" secondAttribute="trailing" constant="5" id="XMe-vp-opF"/>
+                    <constraint firstItem="dzR-rD-CrZ" firstAttribute="leading" secondItem="kZz-r9-KsP" secondAttribute="leading" constant="5" id="bLL-1c-wK1"/>
+                    <constraint firstItem="piJ-iE-JlB" firstAttribute="top" secondItem="s1K-Oh-b54" secondAttribute="bottom" constant="5" id="m9O-b0-zgf"/>
+                    <constraint firstAttribute="trailing" secondItem="s1K-Oh-b54" secondAttribute="trailing" constant="5" id="plp-LF-VXh"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="piJ-iE-JlB" secondAttribute="bottom" constant="-1.5" id="r9B-bE-hmL"/>
+                    <constraint firstItem="EAw-r3-091" firstAttribute="leading" secondItem="kZz-r9-KsP" secondAttribute="leading" id="tVh-r9-a05"/>
+                    <constraint firstItem="piJ-iE-JlB" firstAttribute="leading" secondItem="kZz-r9-KsP" secondAttribute="leading" constant="5" id="wA2-QR-vjv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="commentBtn" destination="gcJ-JH-zpI" id="NV6-oR-KBN"/>
+                <outlet property="image_view" destination="EAw-r3-091" id="8Gb-wd-YZF"/>
+                <outlet property="playCountBtn" destination="op2-kE-UhV" id="7bn-2A-kw4"/>
+                <outlet property="subtitle_lable" destination="s1K-Oh-b54" id="kjp-t4-agM"/>
+                <outlet property="timeLengthBtn" destination="6B6-JX-WaX" id="SlR-6N-FF4"/>
+                <outlet property="title_lable" destination="dzR-rD-CrZ" id="Njz-eu-Em3"/>
+            </connections>
+            <point key="canvasLocation" x="23" y="453"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="VB4J4Q0KM" width="480" height="270"/>
+        <image name="audionews_playlist_duration" width="16" height="16"/>
+        <image name="contenttoolbar_hd_comment_light" width="30" height="30"/>
+        <image name="contenttoolbar_hd_share_light" width="30" height="30"/>
+        <image name="night_cell_tag_video" width="13" height="13"/>
+    </resources>
+</document>

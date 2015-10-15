@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="audioCell" rowHeight="182" id="KGk-i7-Jjw" customClass="NEAudioCell">
+            <rect key="frame" x="0.0" y="0.0" width="318" height="182"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="318" height="181.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jTf-ja-YLI" userLabel="标题按钮" customClass="NEAudioButton">
+                        <rect key="frame" x="0.0" y="0.0" width="318" height="40"/>
+                        <color key="backgroundColor" red="0.7843137255" green="0.7843137255" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="XKH-bz-yjX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <state key="normal" title="Button" image="local_ad_holder">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hte-5n-cBy" userLabel="Button1" customClass="NEPerMusicButton">
+                        <rect key="frame" x="0.0" y="45" width="102.5" height="126.5"/>
+                        <color key="backgroundColor" red="0.7843137255" green="0.7843137255" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <state key="normal">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bb8-2z-hxl" userLabel="Button2" customClass="NEPerMusicButton">
+                        <rect key="frame" x="107" y="45" width="102.5" height="126.5"/>
+                        <color key="backgroundColor" red="0.93574416039999997" green="0.89765135350000003" blue="0.73435995249999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <state key="normal">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9Z-cK-5nM" userLabel="Button3" customClass="NEPerMusicButton">
+                        <rect key="frame" x="215" y="45" width="102.5" height="126.5"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <state key="normal">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="B9Z-cK-5nM" secondAttribute="trailing" id="6sU-qf-c9s"/>
+                    <constraint firstItem="B9Z-cK-5nM" firstAttribute="height" secondItem="Bb8-2z-hxl" secondAttribute="height" id="78f-7e-86U"/>
+                    <constraint firstAttribute="bottom" secondItem="hte-5n-cBy" secondAttribute="bottom" constant="10" id="CE9-24-Z5S"/>
+                    <constraint firstItem="B9Z-cK-5nM" firstAttribute="height" secondItem="hte-5n-cBy" secondAttribute="height" id="Fls-mO-dWM"/>
+                    <constraint firstItem="hte-5n-cBy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Mx4-8Z-MeR"/>
+                    <constraint firstItem="Bb8-2z-hxl" firstAttribute="leading" secondItem="hte-5n-cBy" secondAttribute="trailing" constant="5" id="Q4I-eO-m4N"/>
+                    <constraint firstItem="hte-5n-cBy" firstAttribute="top" secondItem="jTf-ja-YLI" secondAttribute="bottom" constant="5" id="TGR-ed-67g"/>
+                    <constraint firstItem="B9Z-cK-5nM" firstAttribute="width" secondItem="hte-5n-cBy" secondAttribute="width" id="ick-yw-eBe"/>
+                    <constraint firstItem="B9Z-cK-5nM" firstAttribute="leading" secondItem="Bb8-2z-hxl" secondAttribute="trailing" constant="5" id="jMr-yF-2fK"/>
+                    <constraint firstItem="jTf-ja-YLI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="sxr-ph-GLN"/>
+                    <constraint firstItem="B9Z-cK-5nM" firstAttribute="bottom" secondItem="hte-5n-cBy" secondAttribute="bottom" id="tAD-Ak-Heu"/>
+                    <constraint firstItem="B9Z-cK-5nM" firstAttribute="bottom" secondItem="Bb8-2z-hxl" secondAttribute="bottom" id="tYT-Z3-Sa8"/>
+                    <constraint firstItem="B9Z-cK-5nM" firstAttribute="width" secondItem="Bb8-2z-hxl" secondAttribute="width" id="w1f-s9-fIn"/>
+                    <constraint firstItem="jTf-ja-YLI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="xf3-FY-MpX"/>
+                    <constraint firstAttribute="trailing" secondItem="jTf-ja-YLI" secondAttribute="trailing" id="ybc-5O-iYG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="left_button" destination="hte-5n-cBy" id="GkF-vy-h9a"/>
+                <outlet property="middle_btn" destination="Bb8-2z-hxl" id="pdr-G2-lCf"/>
+                <outlet property="right_btn" destination="B9Z-cK-5nM" id="FI0-ll-bbC"/>
+                <outlet property="title_btn" destination="jTf-ja-YLI" id="y9G-pR-eSs"/>
+            </connections>
+            <point key="canvasLocation" x="298" y="198"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="local_ad_holder" width="50" height="50"/>
+    </resources>
+</document>
